@@ -1,0 +1,304 @@
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 300px;
+    height: 90px;
+}
+
+#menu{
+    background-color: #fff7f7 !important;
+}
+
+.alto-img{
+    height: 550px !important;
+}
+
+.nav-link{
+    color: #3c3a3a !important;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: #d9b70e !important;
+    font-weight: 700 !important;
+}
+
+.nav-link.active{
+    color: #000 !important;
+}
+
+/* novedades */
+#novedades{
+    background-color: #0A417F !important;
+}
+
+#novedades .titulo{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* videos */
+#video{
+    background-color: #04552a !important;
+}
+
+#video .titulo{
+    text-align: center;
+    width: 100%;
+    color: #f0e9e9;
+}
+
+/* footer */
+#page-footer{
+    background-color: #0A417F;
+}
+
+#page-footer a{
+    color: #f9f7f7;
+}
+
+#page-footer .ftcontainer{
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    
+}
+
+.footer__cta-ftcontainer{
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.footer__cta-ftcontainer .cta__txt{
+    font-size: 3.6rem;
+    max-width: 50%;
+    padding: 0;
+}
+
+.footer__cta-ftcontainer .cta__btn{
+    margin-top: 0;
+}
+
+.footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 13px;
+}
+
+.footer__menu{
+    max-width: 300px;
+    padding-left: 1em;/*1em son 10px*/
+    grid-column: 1/3;
+    grid-row-start: 1;
+}
+
+.footer__cta-ftcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 70px 0;
+}
+
+.footer__cta-ftcontainer:after{
+    position: absolute;
+    background-color: rgba(255, 253, 253, 0.748);
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+.footer__cta-ftcontainer .cta__txt{
+    color: #fbfafa;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+.footer__cta-ftcontainer .cta__btn{
+    color: #fff;
+    padding: 26px 60px;
+    border: 2px solid rgb(79, 7, 7);
+    border-radius: 500px;
+    background-color: transparent;
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 30px;
+    transition: all .4s ease-in-out;
+}
+
+.footer__cta-ftcontainer .cta__btn:hover{
+    color: #fbfafa;
+    background-color: #480404;
+    border-color: rgb(79, 3, 3);
+}
+
+.footer__link{
+    list-style: none;
+    font-size: 14px;
+    margin: 1em 0;
+    padding: 5px 0 5px .5em;
+}
+
+.ft-social{
+    color: #f9f3f3;
+    width: 30px;
+    border-radius: 100%;
+    height: auto;
+    display: inline-block;
+    font-size: 14px;
+    line-height: inherit;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__link a{
+    text-decoration: none;
+}
+
+.footer__title{
+    font-weight: 700;
+    color: #eeeaea;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#page-footer .ftcontainer{
+    max-width: 1200px;
+    flex-direction: row;
+    padding: 70px 0;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.footer__logo{
+    width: 100%;
+}
+
+
+.footer__info{
+    font-size: 14px;
+    color: #f9f4f4;
+    line-height: 30px;
+}
+
+footer{
+    min-height: 100px;
+    background-color: #faf6f6;
+}
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #480404;
+}
+
+.footer__link:nth-child(2){
+    border-left: 2px solid #faea07;
+}
+
+.footer__link:nth-child(3){
+    border-left: 2px solid #0daeda;
+}
+
+.footer-credits{
+    width: 100%;
+    color: #fff;
+    background-color: #2c2c2d;
+    padding-top:20px 0;
+    text-align: center;
+}
+/* pag contacto */
+#contacto .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.col-12 button{
+    margin-bottom: 10px;
+}
+
+/* pag nosotros */
+#nosotros .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+    
+}
+/* pg ropa deportiva */
+#ropadeportiva .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+    
+}
+ /*pg accesorios para gimnasio */
+ #accesoriosgimnasio .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+/* pg sumplentos deportivos */
+#suplementos .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+/* pg ropa senderismo */
+#ropasenderismo .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+/* pg calzado senderismo */
+#calzado .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+ /* accesorios */
+ #accesorios .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+/* ropa de natacion */
+#ropanatacion .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+/* accesorios de natacion */
+#accesoriosnatacion .titulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
