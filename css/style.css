@@ -12,7 +12,7 @@ body{
 }
 
 .alto-img{
-    height: 550px !important;
+    height: 700px !important;
 }
 
 .nav-link{
@@ -54,6 +54,7 @@ body{
 /* footer */
 #page-footer{
     background-color: #0A417F;
+    margin-top: 100px;
 }
 
 #page-footer a{
@@ -302,3 +303,45 @@ footer{
     text-align: center;
     margin-top: 115px;
 }
+
+/* edicion de imagen R.D */
+.r-d{
+    width: 100%;
+    height: 600px;
+}
+/* edicion de imagen A.G */
+.a-g{
+    width: 100%;
+    height: 400px;
+}
+
+/* edicion de img S.D */
+.s-d{
+    width: 100%;
+    height: 400px;
+}
+
+/* edicion de img R.S */
+.r-s{
+    width: 100%;
+    height: 700px;
+}
+
+/* edicion de img A.S */
+.a-s{
+    width: 150%;
+    height: 600px;
+}
+
+/* edicion de img R.N */
+.r-n{
+    width: 100%;
+    height: 600px;
+}
+
+/* edicion de img A.N */
+.a-n{
+    width: 100%;
+    height: 400px;
+}
+
